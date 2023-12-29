@@ -54,6 +54,7 @@ def create_bonus():
     bonus_move = [0, random.randint (4, 8)]
     return [bonus, bonus_rect, bonus_move]
 
+
 CREATE_ENEMY = pygame.USEREVENT +1
 pygame.time.set_timer(CREATE_ENEMY, 1500)
 CREATE_BONUS = pygame.USEREVENT +2
